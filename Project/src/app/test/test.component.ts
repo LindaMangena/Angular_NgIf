@@ -12,7 +12,7 @@ export class TestComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.displayName = false;
+    this.displayName = true;
   }
 
 }
