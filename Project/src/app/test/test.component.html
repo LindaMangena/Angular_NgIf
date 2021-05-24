@@ -1,7 +1,7 @@
-
-<h1 *ngIf="displayName">
+<h1 *ngIf="displayName;  else elseBlock">
   LindaMangena
 </h1>
 
-
-
+<ng-template #elseBlock>
+  <h1>name is hidden</h1>
+</ng-template>
